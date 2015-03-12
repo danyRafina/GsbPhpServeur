@@ -1,0 +1,4 @@
+gsb_android:
+    resource: "@GSBAndroidBundle/Resources/config/routing.yml"
+    prefix:   /
+

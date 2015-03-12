@@ -1,0 +1,21 @@
+gsb_android_homepage:
+    path:     /connection/{matricule}/{password}
+    defaults: { _controller: GSBAndroidBundle:Default:connexion}
+
+gsb_android_listCR:
+    path:     /listCR/{year}/{month}/{matricule}/{password}
+    defaults: { _controller: GSBAndroidBundle:Default:listCR}
+    
+gsb_android_listMed:
+    path:     /listMedicament/{matricule}/{password}
+    defaults: { _controller: GSBAndroidBundle:Default:listMedicament}
+    
+gsb_android_listsForCR:
+    path:     /listsForCR/{matricule}/{password}
+    defaults: { _controller: GSBAndroidBundle:Default:contentForCreateCR}
+    
+gsb_android_insertCROff:
+    path:     /insertCR/{matricule}/{password}
+    defaults: { _controller: GSBAndroidBundle:Default:insertCR}
+
+
